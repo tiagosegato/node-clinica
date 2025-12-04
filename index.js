@@ -81,6 +81,6 @@ app.delete('/pacientes/:id', verificaJWT, async (req, res) => {
 
 // --- INICIALIZAÇÃO DO SERVIDOR ---
 app.listen(port, () => {
-    console.log(`Servidor da clínica rodando em http://localhost:${port}`);
+    console.log(`Servidor da clínica rodando na porta ${port}`);
 });
 
